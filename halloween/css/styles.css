@@ -1,0 +1,27 @@
+body {
+    width: 800px;
+    text-align: center;
+    background-color: darkorange;
+    font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+    font-family: 'Creepster', cursive;
+    color: #373737;
+    font-size: 24px;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 18px;
+}
+
+h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 14px
+}
+
+h4 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 12px;
+}
