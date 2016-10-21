@@ -8,11 +8,35 @@ html {
 *:after {
     box-sizing: inherit;
 }
-
-
-
-
-
+.body {
+    color: #f9f8f8;
+    background-color: #999;
+}
+h1, h2, h3, h4 {
+    color: #373737; 
+    }
+a {
+    color: #ffffff;
+}
+.header {
+    background-color: #373737; 
+}
+.main {
+    background-color: #edecea;
+}
+.footer {
+    background-color: #373737;
+}
+.footer h4 {
+    color: #ffffff;
+}
+.footer p {
+    color: #373737;
+}
+.footer-bottom {
+    background-color: #1e1f1f;
+    color: #ffffff;
+}
 .container {
     width: 960px;
     margin-right: auto;
@@ -83,6 +107,8 @@ ul {
 }
 .page-header p {
     padding-left: 15px;
+    background-color: #5adae2;
+    color: #ffffff;
 }
 /* Home page CSS */
 .page-header.home {
@@ -91,6 +117,40 @@ ul {
 .message {
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color:#4cd2da;   
+}
+.message h3 {
+    color: #ffffff;
+}
+.contentbox {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+.contentbox li {
+    color: #373737;
+}
+.contentbox-beige {
+    background-color: #f9f8f8;
+}
+.contentbox-beige>img {
+    float: left;
+    margin-right: 15px;
+}
+.tile {
+    background-color: #5adae2;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contentbox-turquoise {
+    background-color: #5adae2;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+.contentbox>img {
+    float: left;
+    margin-right: 15px;
 }
 .main-content-top h1 {
     padding-top: 70px;
@@ -101,6 +161,13 @@ ul {
 }
 .blog-tease {
     height: 210px;
+    color: #ffffff;
+}
+.blog-tease h2 {
+    color: #ffffff;
+}
+.one-quarter {
+    width: 220px;
 }
 /* About page CSS */
 .team h1 {
