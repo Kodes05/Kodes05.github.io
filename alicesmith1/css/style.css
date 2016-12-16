@@ -1,0 +1,341 @@
+@charset "UTF-8";
+
+/* box sizing */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*: before,
+*: after {
+    box-sizing: inherit;
+}
+
+
+/* images */
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.photos img {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* header */
+
+.header {
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    font-family: 'Swanky and Moo Moo', cursive;
+}
+
+.nav {
+    padding-top: 60px;
+    max-height: none;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0px 30px;
+    -webkit-transition: color 0.3s ease 0s;
+    -moz-transition: color 0.3s ease-out;
+    -ms-transition: color 0.3s ease-out;
+    -o-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav a:hover {
+    color: #B45737;
+    /* burnt orange */
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.nav li {
+    font-size: 14px;
+    float: right;
+}
+
+.nav li:last-child {
+    border-right: 0 auto;
+}
+
+ul li {
+    display: inline;
+    position: relative;
+}
+
+.pull-right {
+    float: right;
+}
+
+
+/* body */
+
+.container {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.column {
+    float: left;
+    margin-right: 0x;
+    margin-left: 0;
+}
+
+.row {
+    overflow: inherit;
+}
+
+.one-whole {
+    width: 960px;
+}
+
+.three-quarters {
+    width: 720px;
+}
+
+.two-thirds {
+    width: 620px;
+}
+
+.one-quarter {
+    width: 220px;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.one-third {
+    width: 300px;
+}
+
+.alpha {
+    margin: 0;
+}
+
+.omega {
+    margin-right: 0;
+}
+
+
+/* global */
+
+body {
+    font-family: 'Ariel', sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: black;
+    background-color: white;
+}
+
+em {
+    font-family: 'Swanky and Moo Moo', cursive;
+    color: gray;
+    font-style: italic;
+    font-size: 35px;
+    margin: 0;
+}
+
+h1 {
+    color: lightgray;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Swanky and Moo Moo', cursive;
+}
+
+h2 {
+    font-size: 24px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-align: left;
+    margin: 0;
+}
+
+.homepage {
+    position: absolute;
+    left: 60px;
+    top: 230px;
+    z-index: 10;
+    font-family: arial, sans-serif;
+    font-size: 40px;
+}
+
+span {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+
+h3 {
+    font-size: 12px;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+ul {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 0;
+    list-style: 0;
+    margin: 0;
+}
+
+.menu {
+    float: right;
+    margin-top: 50px;
+}
+
+
+}
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    background-color: grey;
+    color: black;
+    padding: 15px 20px;
+    border-radius: rounded corners;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    -webkit-transition: color 0.3s ease 0s;
+    -moz-transition: color 0.3s ease-out;
+    -ms-transition: color 0.3s ease-out;
+    -o-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-in-out;
+}
+.btn>i {
+    color: #FFF;
+}
+.btn:hover {
+    background-color: gainsboro;
+    /* grey */
+}
+.page-header {
+    color: white;
+    padding-top: 10px;
+}
+.page-header h1 {
+    font-weight: bold;
+}
+.home h1 {
+    color: #fff;
+}
+.main-content-top {
+    background-color: darkgrey;
+}
+.page-header {
+    background-color: #5adae2;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 70px;
+}
+.page-header.home {
+    margin-bottom: 0;
+}
+.page-header h1 {
+    padding-left: 15px;
+    font-weight: bold;
+}
+.page-header.home h1 {
+    font-weight: normal;
+    text-align: center;
+}
+.page-header.home p {
+    font-size: 18px;
+    font-weight: 200;
+}
+.page-header .home a {
+    padding-left: 35px;
+}
+.message {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #4cd2da;
+}
+.message .btn {
+    margin-left: 20px;
+}
+.message h3 {
+    color: #ffffff;
+}
+.brand {
+    font-size: 22px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.aside {
+    padding: 30px;
+    box-sizing: content-box;
+    border-style: dotted;
+    border-color: darkgray;
+    font-size:
+}
+.table {
+    font-size: 12px;
+    color: black;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+
+}
+.services-table caption {
+    color: #373737;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-style: dotted;
+    font-size: 24px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.active a {
+    color: lightblue;
+}
+
+/* Contentbox */
+.contentbox {
+    background-color: lightblue;
+}
+.main-content-bottom {
+    padding-bottom: 75px;
+}
+.main-content-bottom h1 {
+    text-align: center;
+}
+
+/* footer */
+.footer p {
+    color: white;
+    font-family: Ariel,
+    sans-serif;
+    font-style: italic;
+    font-size: 12px;
+}
