@@ -30,11 +30,6 @@ img {
     height: auto;
 }
 
-.img-responsive services {
-    background: url(http://images/marker-3-1.png);
-    display: inline-block;
-}
-
 .photos img {
     padding-right: 10px;
     padding-bottom: 10px;
@@ -43,12 +38,15 @@ img {
 .heading {
     text-transform: uppercase;
     padding: inherit;
-    line-height: 2px;
+    line-height: 10px;
     text-align: left;
+    font-weight: 800;
+    font-size: 11px;
 }
 
 .heading p {
     text-align: left;
+    font-size: 10px;
 }
 
 
@@ -84,7 +82,7 @@ nav ul li {
 }
 
 .nav li {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .link:hover {
@@ -151,14 +149,6 @@ ul li {
     padding-top: 20px;
 }
 
-.alpha {
-    margin: 0;
-}
-
-.omega {
-    margin-right: 0;
-}
-
 
 /* global */
 
@@ -177,38 +167,17 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0;
+    font-size: 18px;
+    padding: 5px 10px 10px 5px;
 }
 
 h3 {
     font-size: 16px;
 }
 
-.caption {
-    position: absolute;
-    color: lightgray;
-    top: 335px;
-    z-index: 10;
-    font-family: arial, sans-serif;
-    font-size: 35px;
-}
-
-span {
-    font-family: 'Swanky and Moo Moo', cursive;
-    font-size: 42px;
-    position: absolute;
-    top: 485px;
-    left: 330px;
-    color: #b45737;
-}
-
 p {
     font-size: 11px;
     line-height: 2;
-    letter-spacing: normal;
 }
 
 a {
@@ -229,6 +198,24 @@ ul {
     margin: 0;
 }
 
+span {
+    font-family: 'Swanky and Moo Moo', cursive;
+    font-size: 50px;
+    position: absolute;
+    top: 485px;
+    left: 445px;
+    color: #b45737;
+}
+
+.caption {
+    position: absolute;
+    color: lightgray;
+    top: 335px;
+    z-index: 10;
+    font-family: arial, sans-serif;
+    font-size: 35px;
+}
+
 .menu {
     float: right;
     margin-top: 50px;
@@ -240,17 +227,27 @@ ul {
 }
 
 
+/* home page */
+
+.boxed {
+    width: 75px;
+    font-style: italic;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
 }
+
 .btn {
     display: block;
     height: 100px;
     width: 300px;
-    font-size: 15px;
+    font-size: 11px;
     border-radius: corners;
     background-color: lightblue;
     border: none;
     text-align: center;
 }
+
 a.btn {
     background-color: dimgray;
     border: none;
@@ -261,103 +258,146 @@ a.btn {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
 }
+
 .btn:hover {
     background-color: lightgray;
 }
-.popular-services {
-    margin-bottom: 5px;
-    line-height: 30px;
-    text-align: left;
+
+.active a {
+    color: lightgray;
 }
+
 .page-header {
     color: white;
     padding-top: 10px;
 }
+
 .page-header h1 {
     font-weight: bold;
 }
+
 .home h1 {
     color: #fff;
 }
+
 .page-header h1 {
     padding-left: 15px;
     font-weight: bold;
 }
+
 .page-header.home h1 {
     font-weight: normal;
     text-align: center;
 }
+
 .page-header.home p {
     font-size: 18px;
     font-weight: 200;
 }
+
 .page-header .home a {
     padding-left: 35px;
 }
+
 .message {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #4cd2da;
 }
+
 .message .btn {
     margin-left: 20px;
 }
+
 .message h3 {
     color: #ffffff;
 }
+
 .brand {
     font-size: 22px;
     padding-top: 45px;
     padding-bottom: 45px;
 }
 
+
 /* sidebar */
-.aside {
-    width: 300px;
-    border: .5 dotted gray;
-    padding: 5px;
-    border-collapse: separate;
-    border-spacing: 5px 25px;
-}
+
 .subtitle {
-    margin: 25px;
-    padding: 5px;
-}
-
-}
-.aside p {
     font-size: 10px;
-    margin: 35px;
-}
-.active a {
-    color: lightgray;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.5px;
+    text-align: left;
+    padding: 30px 5px 5px 35px;
+    margin-right: 10px;
 }
 
-/* Contentbox */
+.services {
+    width: 245px;
+    border: .5px dotted gray;
+    border-spacing: 5px 5px;
+    margin: 10px 0px 5px 5px;
+}
+
+.services p {
+    font-size: 10px;
+    margin-left: 15px;
+    text-align: left;
+    padding: 0px 0px 0px 22px;
+}
+
+.services img {
+    position: absolute;
+    padding: 20px 15px 15px 11px;
+    bottom: 10;
+}
+
 
 /* about page */
+
 .about-page {
     text-align: center;
 }
+
 .private-policy i:hover {
     color: lightgrey;
 }
 
+.areas {
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.at-glance {
+    line-height:
+}
+
+.popular-services {
+    padding: 10px 10px 10px 0px;
+    font-weight: bolder;
+    line-height: 10px;
+    text-align: left;
+}
+
+
 /* footer */
+
 .footer {
     background-color: black;
 }
+
 .alice-smith {
     padding-left: 40;
 }
+
 .footer p {
     color: white;
-    font-family: Arial,
-    sans-serif;
+    font-family: Arial, sans-serif;
     font-style: italic;
     font-size: 10px;
     padding-left: 30px;
 }
+
 .footer a:hover {
     text-decoration: underline;
 }
