@@ -199,12 +199,14 @@ ul {
 }
 
 span {
+    position: absolute;
     font-family: 'Swanky and Moo Moo', cursive;
     font-size: 50px;
-    position: absolute;
     top: 485px;
-    left: 445px;
+    padding-left: 100px;
+    z-index: 10;
     color: #b45737;
+    float: right;
 }
 
 .caption {
