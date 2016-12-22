@@ -1,3 +1,4 @@
+@import url(grid.css);
 @charset "UTF-8";
 
 /* box sizing */
@@ -326,7 +327,7 @@ a.btn {
 /* sidebar */
 
 .subtitle {
-    font-size: 10px;
+    font-size: 9px;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 2.5px;
@@ -336,7 +337,7 @@ a.btn {
 }
 
 .services {
-    width: 260px;
+    width: 265px;
     border: .5px dotted gray;
     border-spacing: 5px 5px;
     margin: 10px 0px 5px 5px;
@@ -351,7 +352,7 @@ a.btn {
 
 .services img {
     position: absolute;
-    padding: 20px 15px 15px 11px;
+    padding: 19px 15px 15px 11px;
     bottom: 10;
 }
 
@@ -404,3 +405,9 @@ a.btn {
 .footer a:hover {
     text-decoration: underline;
 }
+/* Smartphone landscape */
+                                                                                                        
+                                                                                                        @media (min-width: 480px) {}
+                                                                                                        /* Small devices (tablets, 768px and up) */
+                                                                                                        
+                                                                                                        
